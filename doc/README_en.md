@@ -8,6 +8,9 @@ This repository contains detailed specifications for 3,586 digital cameras from 
 
 > **Note**: Due to GitHub file size limitations, only a small subset of camera images is included in this repository. The complete image dataset can be provided upon request.
 
+
+
+
 ## Repository Structure
 
 ```
@@ -16,10 +19,18 @@ CameraDatabase/
 │   ├── camera_data_cleaned.csv    # CSV format camera specifications
 │   ├── camera_data_cleaned.json   # JSON format camera specifications
 │   └── images/                    # Sample camera images
-├── README.md                      # Main README
-├── README_en.md                   # English documentation (this file)
-└── README_zh.md                   # Chinese documentation
+├── doc/                           # Documentation directory
+│   ├── README_en.md               # English documentation (this file)
+│   ├── README_zh.md               # Chinese documentation
+│   ├── README_ja.md               # Japanese documentation
+│   ├── README_es.md               # Spanish documentation
+│   ├── README_fr.md               # French documentation
+│   └── README_de.md               # German documentation
+└── README.md                      # Main README
 ```
+
+
+
 
 ## Data Files
 

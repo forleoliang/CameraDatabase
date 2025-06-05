@@ -8,6 +8,9 @@ Ce dépôt contient des spécifications détaillées de 3 586 appareils photo nu
 
 > **Remarque** : En raison des limitations de taille de fichier de GitHub, seul un petit sous-ensemble d'images d'appareils photo est inclus dans ce dépôt. L'ensemble complet d'images peut être fourni sur demande.
 
+
+
+
 ## Structure du Dépôt
 
 ```
@@ -16,13 +19,18 @@ CameraDatabase/
 │   ├── camera_data_cleaned.csv    # Spécifications des appareils photo au format CSV
 │   ├── camera_data_cleaned.json   # Spécifications des appareils photo au format JSON
 │   └── images/                    # Échantillons d'images d'appareils photo
-├── README.md                      # Fichier README principal
-├── README_en.md                   # Documentation en anglais
-├── README_zh.md                   # Documentation en chinois
-├── README_ja.md                   # Documentation en japonais
-├── README_es.md                   # Documentation en espagnol
-└── README_fr.md                   # Documentation en français (ce fichier)
+├── doc/                           # Répertoire de documentation
+│   ├── README_en.md               # Documentation en anglais
+│   ├── README_zh.md               # Documentation en chinois
+│   ├── README_ja.md               # Documentation en japonais
+│   ├── README_es.md               # Documentation en espagnol
+│   ├── README_fr.md               # Documentation en français (ce fichier)
+│   └── README_de.md               # Documentation en allemand
+└── README.md                      # Fichier README principal
 ```
+
+
+
 
 ## Fichiers de Données
 

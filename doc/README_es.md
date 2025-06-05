@@ -8,6 +8,9 @@ Este repositorio contiene especificaciones detalladas de 3,586 cámaras digitale
 
 > **Nota**: Debido a las limitaciones de tamaño de archivo de GitHub, solo se incluye un pequeño subconjunto de imágenes de cámaras en este repositorio. El conjunto completo de imágenes puede ser proporcionado bajo petición.
 
+
+
+
 ## Estructura del Repositorio
 
 ```
@@ -16,12 +19,18 @@ CameraDatabase/
 │   ├── camera_data_cleaned.csv    # Especificaciones de cámaras en formato CSV
 │   ├── camera_data_cleaned.json   # Especificaciones de cámaras en formato JSON
 │   └── images/                    # Imágenes de muestra de cámaras
-├── README.md                      # README principal
-├── README_en.md                   # Documentación en inglés
-├── README_zh.md                   # Documentación en chino
-├── README_ja.md                   # Documentación en japonés
-└── README_es.md                   # Documentación en español (este archivo)
+├── doc/                           # Directorio de documentación
+│   ├── README_en.md               # Documentación en inglés
+│   ├── README_zh.md               # Documentación en chino
+│   ├── README_ja.md               # Documentación en japonés
+│   ├── README_es.md               # Documentación en español (este archivo)
+│   ├── README_fr.md               # Documentación en francés
+│   └── README_de.md               # Documentación en alemán
+└── README.md                      # README principal
 ```
+
+
+
 
 ## Archivos de Datos
 

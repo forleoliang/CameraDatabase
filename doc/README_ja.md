@@ -8,6 +8,9 @@
 
 > **注意**：GitHubのファイルサイズ制限により、このリポジトリにはカメラ画像の一部のみが含まれています。完全な画像データセットはリクエストに応じて提供可能です。
 
+
+
+
 ## リポジトリの構造
 
 ```
@@ -16,11 +19,18 @@ CameraDatabase/
 │   ├── camera_data_cleaned.csv    # CSV形式のカメラ仕様
 │   ├── camera_data_cleaned.json   # JSON形式のカメラ仕様
 │   └── images/                    # カメラ画像サンプル
-├── README.md                      # メインREADMEファイル
-├── README_en.md                   # 英語ドキュメント
-├── README_zh.md                   # 中国語ドキュメント
-└── README_ja.md                   # 日本語ドキュメント（本ファイル）
+├── doc/                           # ドキュメントディレクトリ
+│   ├── README_en.md               # 英語ドキュメント
+│   ├── README_zh.md               # 中国語ドキュメント
+│   ├── README_ja.md               # 日本語ドキュメント （本ファイル）
+│   ├── README_es.md               # スペイン語ドキュメント
+│   ├── README_fr.md               # フランス語ドキュメント
+│   └── README_de.md               # ドイツ語ドキュメント
+└── README.md                      # メインREADMEファイル
 ```
+
+
+
 
 ## データファイル
 

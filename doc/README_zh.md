@@ -8,6 +8,9 @@
 
 > **注意**：由于GitHub文件大小限制，本仓库仅包含部分相机图像示例。完整图像数据集可根据请求提供。
 
+
+
+
 ## 仓库结构
 
 ```
@@ -16,10 +19,18 @@ CameraDatabase/
 │   ├── camera_data_cleaned.csv    # CSV格式的相机规格数据
 │   ├── camera_data_cleaned.json   # JSON格式的相机规格数据
 │   └── images/                    # 相机图像示例
-├── README.md                      # 主README文件
-├── README_en.md                   # 英文文档
-└── README_zh.md                   # 中文文档（本文件）
+├── doc/                           # 文档目录
+│   ├── README_en.md               # 英文文档
+│   ├── README_zh.md               # 中文文档 （本文件）
+│   ├── README_ja.md               # 日文文档
+│   ├── README_es.md               # 西班牙文文档
+│   ├── README_fr.md               # 法文文档
+│   └── README_de.md               # 德文文档
+└── README.md                      # 主README文件
 ```
+
+
+
 
 ## 数据文件
 
