@@ -16,8 +16,8 @@ Ce dépôt contient des spécifications détaillées de 3 586 appareils photo nu
 ```
 CameraDatabase/
 ├── data/                          # Répertoire de données
-│   ├── camera_data_cleaned.csv    # Spécifications des appareils photo au format CSV
-│   ├── camera_data_cleaned.json   # Spécifications des appareils photo au format JSON
+│   ├── camera_data.csv    # Spécifications des appareils photo au format CSV
+│   ├── camera_data.json   # Spécifications des appareils photo au format JSON
 │   └── images/                    # Échantillons d'images d'appareils photo
 ├── doc/                           # Répertoire de documentation
 │   ├── README_en.md               # Documentation en anglais
@@ -34,8 +34,8 @@ CameraDatabase/
 
 ## Fichiers de Données
 
-- `data/camera_data_cleaned.csv` : Données de spécifications d'appareils photo au format CSV (37 colonnes)
-- `data/camera_data_cleaned.json` : Données de spécifications d'appareils photo au format JSON (mêmes données que CSV)
+- `data/camera_data.csv` : Données de spécifications d'appareils photo au format CSV (37 colonnes)
+- `data/camera_data.json` : Données de spécifications d'appareils photo au format JSON (mêmes données que CSV)
 - `data/images/` : Répertoire contenant des échantillons d'images d'appareils photo au format PNG
 
 ## Structure des Données

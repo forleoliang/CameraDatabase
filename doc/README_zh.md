@@ -16,8 +16,8 @@
 ```
 CameraDatabase/
 ├── data/                          # 数据目录
-│   ├── camera_data_cleaned.csv    # CSV格式的相机规格数据
-│   ├── camera_data_cleaned.json   # JSON格式的相机规格数据
+│   ├── camera_data.csv    # CSV格式的相机规格数据
+│   ├── camera_data.json   # JSON格式的相机规格数据
 │   └── images/                    # 相机图像示例
 ├── doc/                           # 文档目录
 │   ├── README_en.md               # 英文文档
@@ -34,8 +34,8 @@ CameraDatabase/
 
 ## 数据文件
 
-- `data/camera_data_cleaned.csv`: CSV格式的相机规格数据（37列）
-- `data/camera_data_cleaned.json`: JSON格式的相机规格数据（与CSV数据相同）
+- `data/camera_data.csv`: CSV格式的相机规格数据（37列）
+- `data/camera_data.json`: JSON格式的相机规格数据（与CSV数据相同）
 - `data/images/`: 包含相机图像示例（PNG格式）的目录
 
 ## 数据结构

@@ -16,8 +16,8 @@ Dieses Repository enthält detaillierte Spezifikationen von 3.586 Digitalkameras
 ```
 CameraDatabase/
 ├── data/                          # Datenverzeichnis
-│   ├── camera_data_cleaned.csv    # Kameraspezifikationen im CSV-Format
-│   ├── camera_data_cleaned.json   # Kameraspezifikationen im JSON-Format
+│   ├── camera_data.csv    # Kameraspezifikationen im CSV-Format
+│   ├── camera_data.json   # Kameraspezifikationen im JSON-Format
 │   └── images/                    # Beispielbilder von Kameras
 ├── doc/                           # Dokumentationsverzeichnis
 │   ├── README_en.md               # Englische Dokumentation
@@ -34,8 +34,8 @@ CameraDatabase/
 
 ## Datendateien
 
-- `data/camera_data_cleaned.csv`: Kameraspezifikationen im CSV-Format (37 Spalten)
-- `data/camera_data_cleaned.json`: Kameraspezifikationen im JSON-Format (gleiche Daten wie CSV)
+- `data/camera_data.csv`: Kameraspezifikationen im CSV-Format (37 Spalten)
+- `data/camera_data.json`: Kameraspezifikationen im JSON-Format (gleiche Daten wie CSV)
 - `data/images/`: Verzeichnis mit Beispielbildern von Kameras im PNG-Format
 
 ## Datenstruktur

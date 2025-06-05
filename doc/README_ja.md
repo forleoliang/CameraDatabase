@@ -16,8 +16,8 @@
 ```
 CameraDatabase/
 ├── data/                          # データディレクトリ
-│   ├── camera_data_cleaned.csv    # CSV形式のカメラ仕様
-│   ├── camera_data_cleaned.json   # JSON形式のカメラ仕様
+│   ├── camera_data.csv    # CSV形式のカメラ仕様
+│   ├── camera_data.json   # JSON形式のカメラ仕様
 │   └── images/                    # カメラ画像サンプル
 ├── doc/                           # ドキュメントディレクトリ
 │   ├── README_en.md               # 英語ドキュメント
@@ -34,8 +34,8 @@ CameraDatabase/
 
 ## データファイル
 
-- `data/camera_data_cleaned.csv`: CSV形式のカメラ仕様データ（37列）
-- `data/camera_data_cleaned.json`: JSON形式のカメラ仕様データ（CSVと同じデータ）
+- `data/camera_data.csv`: CSV形式のカメラ仕様データ（37列）
+- `data/camera_data.json`: JSON形式のカメラ仕様データ（CSVと同じデータ）
 - `data/images/`: カメラ画像サンプル（PNG形式）のディレクトリ
 
 ## データ構造
