@@ -8,11 +8,24 @@ This repository contains detailed specifications for 3,586 digital cameras from 
 
 > **Note**: Due to GitHub file size limitations, only a small subset of camera images is included in this repository. The complete image dataset can be provided upon request.
 
+## Repository Structure
+
+```
+CameraDatabase/
+├── data/                          # Data directory
+│   ├── camera_data_cleaned.csv    # CSV format camera specifications
+│   ├── camera_data_cleaned.json   # JSON format camera specifications
+│   └── images/                    # Sample camera images
+├── README.md                      # Main README
+├── README_en.md                   # English documentation (this file)
+└── README_zh.md                   # Chinese documentation
+```
+
 ## Data Files
 
-- `camera_data_cleaned.csv`: CSV format camera specifications (37 columns)
-- `camera_data_cleaned.json`: JSON format camera specifications (same data as CSV)
-- `images/`: Directory containing sample camera images in PNG format
+- `data/camera_data_cleaned.csv`: CSV format camera specifications (37 columns)
+- `data/camera_data_cleaned.json`: JSON format camera specifications (same data as CSV)
+- `data/images/`: Directory containing sample camera images in PNG format
 
 ## Data Structure
 
@@ -72,7 +85,7 @@ The data is available in two formats:
     "Brand": "Canon",
     "Model": "EOS R5",
     "Year": 2020,
-    "image_file": "images/canon_eos-r5.jpg",
+    "image_file": "data/images/canon_eos-r5.jpg",
     "Sensor type": "CMOS",
     ...
 }

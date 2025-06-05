@@ -8,11 +8,24 @@
 
 > **注意**：由于GitHub文件大小限制，本仓库仅包含部分相机图像示例。完整图像数据集可根据请求提供。
 
+## 仓库结构
+
+```
+CameraDatabase/
+├── data/                          # 数据目录
+│   ├── camera_data_cleaned.csv    # CSV格式的相机规格数据
+│   ├── camera_data_cleaned.json   # JSON格式的相机规格数据
+│   └── images/                    # 相机图像示例
+├── README.md                      # 主README文件
+├── README_en.md                   # 英文文档
+└── README_zh.md                   # 中文文档（本文件）
+```
+
 ## 数据文件
 
-- `camera_data_cleaned.csv`: CSV格式的相机规格数据（37列）
-- `camera_data_cleaned.json`: JSON格式的相机规格数据（与CSV数据相同）
-- `images/`: 包含相机图像示例（PNG格式）的目录
+- `data/camera_data_cleaned.csv`: CSV格式的相机规格数据（37列）
+- `data/camera_data_cleaned.json`: JSON格式的相机规格数据（与CSV数据相同）
+- `data/images/`: 包含相机图像示例（PNG格式）的目录
 
 ## 数据结构
 
@@ -72,7 +85,7 @@
     "Brand": "佳能",
     "Model": "EOS R5",
     "Year": 2020,
-    "image_file": "images/canon_eos-r5.jpg",
+    "image_file": "data/images/canon_eos-r5.jpg",
     "Sensor type": "CMOS",
     ...
 }
