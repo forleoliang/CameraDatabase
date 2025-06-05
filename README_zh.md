@@ -1,0 +1,109 @@
+# 相机数据库
+
+用于研究和应用开发的开源相机规格和图像数据库。
+
+## 概述
+
+本仓库包含来自各制造商的3,586款数码相机的详细规格，以及相机图像示例。完整数据集包含3,585张相机图像。
+
+> **注意**：由于GitHub文件大小限制，本仓库仅包含部分相机图像示例。完整图像数据集可根据请求提供。
+
+## 数据文件
+
+- `camera_data_cleaned.csv`: CSV格式的相机规格数据（37列）
+- `camera_data_cleaned.json`: JSON格式的相机规格数据（与CSV数据相同）
+- `images/`: 包含相机图像示例（PNG格式）的目录
+
+## 数据结构
+
+数据集包含以下字段：
+
+| 英文字段 | 中文翻译 | 描述 |
+|---------|----------|------|
+| Brand | 品牌 | 相机制造商 |
+| Model | 型号 | 相机型号名称 |
+| Year | 年份 | 发布年份 |
+| image_file | 图像文件 | 相机图像的路径 |
+| Total megapixels | 总像素 | 总百万像素数 |
+| Exposure Compensation | 曝光补偿 | 可用的曝光补偿范围 |
+| Normal focus range | 正常对焦范围 | 常规对焦距离范围 |
+| Battery | 电池 | 电池类型 |
+| Sensor resolution | 传感器分辨率 | 分辨率（像素宽 x 高） |
+| Crop factor | 裁切系数 | 传感器裁切系数 |
+| Sensor type | 传感器类型 | 图像传感器类型（CCD、CMOS等） |
+| Dimensions | 尺寸 | 物理尺寸（毫米） |
+| Max aperture | 最大光圈 | 最大光圈值 |
+| Min. shutter speed | 最慢快门速度 | 最慢快门速度 |
+| White balance presets | 白平衡预设 | 白平衡预设数量 |
+| Macro focus range | 微距对焦范围 | 微距摄影的最小对焦距离 |
+| Optical zoom | 光学变焦 | 是否具有光学变焦功能 |
+| USB | USB接口 | USB接口类型 |
+| Weight | 重量 | 相机重量（克） |
+| Max. aperture (35mm equiv.) | 最大光圈（35mm等效） | 35mm等效的最大光圈 |
+| Focal length (35mm equiv.) | 焦距（35mm等效） | 35mm等效的焦距范围 |
+| Also known as | 又称为 | 替代名称或型号 |
+| Aperture priority | 光圈优先 | 是否具有光圈优先模式 |
+| Max. image resolution | 最大图像分辨率 | 最大图像分辨率（像素） |
+| Max. shutter speed | 最快快门速度 | 最快快门速度 |
+| Storage types | 存储类型 | 兼容的存储介质 |
+| Effective megapixels | 有效像素 | 用于图像捕获的有效百万像素 |
+| Megapixels | 百万像素 | 营销百万像素计数 |
+| Max. video resolution | 最大视频分辨率 | 最大视频分辨率 |
+| Screen size | 屏幕尺寸 | 液晶屏幕尺寸（英寸） |
+| Metering | 测光 | 可用的测光模式 |
+| Digital zoom | 数码变焦 | 是否具有数码变焦功能 |
+| Shutter priority | 快门优先 | 是否具有快门优先模式 |
+| Sensor size | 传感器尺寸 | 物理传感器尺寸（毫米） |
+| Viewfinder | 取景器 | 取景器类型 |
+| Screen resolution | 屏幕分辨率 | 液晶屏幕分辨率（点） |
+| ISO | ISO感光度 | 可用的ISO感光度范围 |
+
+## 数据格式
+
+数据以两种格式提供：
+
+1. **CSV**：适用于电子表格应用程序和数据分析工具的简单表格格式
+2. **JSON**：适用于Web应用程序和编程的结构化格式
+
+### JSON示例
+
+```json
+{
+    "Brand": "佳能",
+    "Model": "EOS R5",
+    "Year": 2020,
+    "image_file": "images/canon_eos-r5.jpg",
+    "Sensor type": "CMOS",
+    ...
+}
+```
+
+## 用途
+
+此数据集可用于：
+
+- 相机市场分析
+- 计算机视觉研究
+- 机器学习模型训练
+- 相机推荐系统
+- 教育目的
+
+## 数据清洗
+
+数据已经过清洗：
+- 删除空列
+- 标准化列名
+- 按品牌和发布年份（降序）排序
+- 在JSON格式中将所有缺失值转换为null
+
+## 许可证
+
+本数据集根据MIT许可证发布。可自由用于商业和非商业目的。
+
+## 贡献
+
+欢迎对数据集进行改进的贡献。请提交拉取请求或开启问题来讨论您的想法。
+
+## 致谢
+
+感谢所有提供原始规格的相机制造商和评测网站。 
