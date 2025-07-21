@@ -94,12 +94,43 @@ Les données sont disponibles dans deux formats :
 ```json
 {
     "Brand": "Canon",
-    "Model": "EOS R5",
-    "Year": 2020,
-    "image_file": "data/images/canon_eos-r5.jpg",
+    "Model": "EOS R5 Mark II",
+    "Year": "2024",
+    "image_file": "data/images/canon_eos-r5-mark-ii.jpg",
+    "Total megapixels": "50.3",
+    "Exposure Compensation": "\u00b13 EV (in 1/3 EV, 1/2 EV steps)",
+    "Normal focus range": null,
+    "Battery": "LP-E6P lithium-ion battery",
+    "Sensor resolution": "8216 x 5477",
+    "Crop factor": "1.0",
     "Sensor type": "CMOS",
-    ...
-}
+    "Dimensions": "138.5 x 101.2 x 93.5 mm",
+    "Max aperture": null,
+    "Min. shutter speed": "30 sec",
+    "White balance presets": "8.0",
+    "Macro focus range": null,
+    "Optical zoom": null,
+    "USB": "USB 3.2 (10 GBit/sec)",
+    "Weight": "746 g",
+    "Max. aperture (35mm equiv.)": null,
+    "Focal length (35mm equiv.)": null,
+    "Also known as": null,
+    "Aperture priority": "Yes",
+    "Max. image resolution": "8192 x 5464",
+    "Max. shutter speed": "1/8000 sec",
+    "Storage types": "SD/SDHC/SDXC, CFexpress Type B",
+    "Effective megapixels": "45.0",
+    "Megapixels": null,
+    "Max. video resolution": "8192x4320 (60/50/30p/\u200b25p/24p)",
+    "Screen size": "3.2\"",
+    "Metering": "Multi, Center-weighted, Spot, Partial",
+    "Digital zoom": null,
+    "Shutter priority": "Yes",
+    "Sensor size": "36 x 24 mm",
+    "Viewfinder": "Electronic",
+    "Screen resolution": "2,100,000 dots",
+    "ISO": "Auto, 100-51200 (extends to 50-102400)"
+  }
 ```
 
 ## Utilisations
