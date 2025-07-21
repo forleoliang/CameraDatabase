@@ -4,9 +4,8 @@ Eine Open-Source-Datenbank mit Kameraspezifikationen und -bildern für Forschung
 
 ## Überblick
 
-Dieses Repository enthält detaillierte Spezifikationen von 3.586 Digitalkameras verschiedener Hersteller, zusammen mit einer Sammlung von Kamerabildern. Der vollständige Datensatz umfasst 3.585 Kamerabilder.
+Dieses Repository enthält detaillierte Spezifikationen von 3.586 Digitalkameras verschiedener Hersteller.
 
-> **Hinweis**: Aufgrund der Dateibeschränkungen von GitHub ist nur eine kleine Teilmenge der Kamerabilder in diesem Repository enthalten. Der vollständige Bilddatensatz kann auf Anfrage bereitgestellt werden.
 
 
 
@@ -18,7 +17,6 @@ CameraDatabase/
 ├── data/                          # Datenverzeichnis
 │   ├── camera_data.csv    # Kameraspezifikationen im CSV-Format
 │   ├── camera_data.json   # Kameraspezifikationen im JSON-Format
-│   └── images/                    # Beispielbilder von Kameras
 ├── doc/                           # Dokumentationsverzeichnis
 │   ├── README_en.md               # Englische Dokumentation
 │   ├── README_zh.md               # Chinesische Dokumentation
@@ -36,7 +34,6 @@ CameraDatabase/
 
 - `data/camera_data.csv`: Kameraspezifikationen im CSV-Format (37 Spalten)
 - `data/camera_data.json`: Kameraspezifikationen im JSON-Format (gleiche Daten wie CSV)
-- `data/images/`: Verzeichnis mit Beispielbildern von Kameras im PNG-Format
 
 ## Datenstruktur
 
