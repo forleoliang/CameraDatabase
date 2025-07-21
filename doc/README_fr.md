@@ -4,9 +4,8 @@ Une base de données open source des spécifications et images d'appareils photo
 
 ## Aperçu
 
-Ce dépôt contient des spécifications détaillées de 3 586 appareils photo numériques de différents fabricants, ainsi qu'un échantillon d'images d'appareils photo. L'ensemble de données complet comprend 3 585 images d'appareils photo.
+Ce dépôt contient des spécifications détaillées de 3 586 appareils photo numériques de différents fabricants.
 
-> **Remarque** : En raison des limitations de taille de fichier de GitHub, seul un petit sous-ensemble d'images d'appareils photo est inclus dans ce dépôt. L'ensemble complet d'images peut être fourni sur demande.
 
 
 
@@ -18,7 +17,6 @@ CameraDatabase/
 ├── data/                          # Répertoire de données
 │   ├── camera_data.csv    # Spécifications des appareils photo au format CSV
 │   ├── camera_data.json   # Spécifications des appareils photo au format JSON
-│   └── images/                    # Échantillons d'images d'appareils photo
 ├── doc/                           # Répertoire de documentation
 │   ├── README_en.md               # Documentation en anglais
 │   ├── README_zh.md               # Documentation en chinois
@@ -36,7 +34,6 @@ CameraDatabase/
 
 - `data/camera_data.csv` : Données de spécifications d'appareils photo au format CSV (37 colonnes)
 - `data/camera_data.json` : Données de spécifications d'appareils photo au format JSON (mêmes données que CSV)
-- `data/images/` : Répertoire contenant des échantillons d'images d'appareils photo au format PNG
 
 ## Structure des Données
 
