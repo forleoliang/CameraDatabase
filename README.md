@@ -6,7 +6,7 @@ An open-source database of camera specifications and images for research and app
 
 ## Overview
 
-This repository contains detailed specifications for 3,586 digital cameras from various manufacturers, along with a sample of camera images. The full dataset includes 3,585 camera images.
+This repository contains detailed specifications for 3,586 digital cameras from various manufacturers.
 
 ## Camera Brands
 
@@ -18,9 +18,6 @@ Acer, AgfaPhoto, BenQ, Canon, Casio, Concord, Contax, Epson, Fujifilm, GE, HP, J
 
 - `data/camera_data.csv`: CSV format camera specifications (37 columns)
 - `data/camera_data.json`: JSON format camera specifications (same data as CSV)
-- `data/images/`: Directory containing sample camera images in PNG format (due to GitHub size limitations, only a small subset is included)
-
-> **Note**: Due to GitHub file size limitations, only a small subset of camera images is included in this repository. The complete image dataset can be provided upon request.
 
 ## Multilingual Documentation
 
