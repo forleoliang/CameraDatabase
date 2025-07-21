@@ -16,7 +16,6 @@ CameraDatabase/
 ├── data/                          # 数据目录
 │   ├── camera_data.csv    # CSV格式的相机规格数据
 │   ├── camera_data.json   # JSON格式的相机规格数据
-│   └── images/                    # 相机图像示例
 ├── doc/                           # 文档目录
 │   ├── README_en.md               # 英文文档
 │   ├── README_zh.md               # 中文文档 （本文件）
