@@ -16,6 +16,7 @@ CameraDatabase/
 ├── data/                          # 数据目录
 │   ├── camera_data.csv    # CSV格式的相机规格数据
 │   ├── camera_data.json   # JSON格式的相机规格数据
+│   └── images/            # 按品牌组织的相机图像
 ├── doc/                           # 文档目录
 │   ├── README_en.md               # 英文文档
 │   ├── README_zh.md               # 中文文档 （本文件）
@@ -23,6 +24,7 @@ CameraDatabase/
 │   ├── README_es.md               # 西班牙文文档
 │   ├── README_fr.md               # 法文文档
 │   └── README_de.md               # 德文文档
+├── CHANGELOG.md                   # 项目更新日志
 └── README.md                      # 主README文件
 ```
 
@@ -33,6 +35,7 @@ CameraDatabase/
 
 - `data/camera_data.csv`: CSV格式的相机规格数据（37列）
 - `data/camera_data.json`: JSON格式的相机规格数据（与CSV数据相同）
+- `data/images/`: 按品牌和型号组织的相机图像（3,546张图像）
 
 
 ## 数据结构
@@ -78,6 +81,16 @@ CameraDatabase/
 | Viewfinder | 取景器 | 取景器类型 |
 | Screen resolution | 屏幕分辨率 | 液晶屏幕分辨率（点） |
 | ISO | ISO感光度 | 可用的ISO感光度范围 |
+
+## 图像数据
+
+数据库包含3,546张按品牌和型号组织的相机图像：
+
+- **格式**：PNG和JPG文件
+- **命名约定**：`brand_model-name.png/jpg`
+- **组织方式**：图像存储在`data/images/`目录中
+- **覆盖范围**：所有36个相机制造商都有图像表示
+- **质量**：适合研究和应用的高质量产品图像
 
 ## 数据格式
 
@@ -138,7 +151,10 @@ CameraDatabase/
 - 计算机视觉研究
 - 机器学习模型训练
 - 相机推荐系统
+- 图像识别和分类
+- 视觉搜索应用
 - 教育目的
+- 产品目录开发
 
 ## 数据清洗
 

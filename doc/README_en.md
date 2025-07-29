@@ -15,6 +15,7 @@ CameraDatabase/
 ├── data/                          # Data directory
 │   ├── camera_data.csv    # CSV format camera specifications
 │   ├── camera_data.json   # JSON format camera specifications
+│   └── images/            # Camera images organized by brand
 ├── doc/                           # Documentation directory
 │   ├── README_en.md               # English documentation (this file)
 │   ├── README_zh.md               # Chinese documentation
@@ -22,6 +23,7 @@ CameraDatabase/
 │   ├── README_es.md               # Spanish documentation
 │   ├── README_fr.md               # French documentation
 │   └── README_de.md               # German documentation
+├── CHANGELOG.md                   # Project changelog
 └── README.md                      # Main README
 ```
 
@@ -32,6 +34,7 @@ CameraDatabase/
 
 - `data/camera_data.csv`: CSV format camera specifications (37 columns)
 - `data/camera_data.json`: JSON format camera specifications (same data as CSV)
+- `data/images/`: Camera images organized by brand and model (3,546 images)
 
 ## Data Structure
 
@@ -76,6 +79,16 @@ The dataset includes the following fields:
 | Viewfinder | Viewfinder type |
 | Screen resolution | LCD screen resolution in dots |
 | ISO | Available ISO sensitivity range |
+
+## Image Data
+
+The database includes 3,546 camera images organized by brand and model:
+
+- **Format**: PNG and JPG files
+- **Naming Convention**: `brand_model-name.png/jpg`
+- **Organization**: Images are stored in `data/images/` directory
+- **Coverage**: All 36 camera manufacturers have image representation
+- **Quality**: High-quality product images suitable for research and applications
 
 ## Data Format
 
@@ -136,7 +149,10 @@ This dataset can be used for:
 - Computer vision research
 - Machine learning model training
 - Camera recommendation systems
+- Image recognition and classification
+- Visual search applications
 - Educational purposes
+- Product catalog development
 
 ## Data Cleaning
 

@@ -18,6 +18,7 @@ Acer, AgfaPhoto, BenQ, Canon, Casio, Concord, Contax, Epson, Fujifilm, GE, HP, J
 
 - `data/camera_data.csv`: CSV format camera specifications (37 columns)
 - `data/camera_data.json`: JSON format camera specifications (same data as CSV)
+- `data/images/`: Camera images organized by brand and model (3,546 images)
 
 ## Multilingual Documentation
 
