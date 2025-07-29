@@ -11,7 +11,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - **Camera Images**: Added 3,546 camera images covering all major brands
-- **New Brands**: Added comprehensive image coverage for Sanyo, Sigma, Toshiba, Vivitar, and Yakumo cameras
 - **Image Organization**: All images are organized by brand and model name in `data/images/` directory
 - **Multilingual Documentation**: Added comprehensive documentation in 6 languages (English, Chinese, Japanese, Spanish, French, German)
 
